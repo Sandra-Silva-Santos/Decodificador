@@ -1,0 +1,163 @@
+
+* {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 150%;
+
+}
+
+body {
+    background:url(imagens/stickman.gif);
+
+}
+
+.main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+
+.input-texto {
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-top: 90px;
+    color: #2e3aa7;
+    
+}
+
+.mensagem {
+    border-radius: 15px;
+    border: 2px solid black;
+    position: relative;
+    margin-top: 60px;
+    margin-right: 60px;
+    color: red;
+    margin-left: 90px;
+    background-image: url("imagens/stickman_ninja.png");
+    background-size: 100%;
+    background-position-y: 128%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.copiar{
+    margin-left: 100px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow:  10px 10px 10px 0 #000000;
+    }
+
+.copiar:hover{
+        opacity: 0.5;
+        transition: 400ms;
+        box-shadow:  10px 10px 10px 0 #000000;
+    }
+
+
+
+
+.limpar{
+    margin-left: 70px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow:  10px 10px 10px 0 #000000;
+    }    
+
+.limpar:hover{
+        opacity: 0.5;
+        transition: 400ms;
+        box-shadow:  10px 10px 10px 0 #000000;
+    }
+    
+ 
+
+
+.encriptar {
+    text-align: center;
+    margin-right: 20px;
+    background-color: #2e3aa7;
+    color: white;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow:  10px 10px 10px 0 #000000;
+    border-radius: 15px;
+
+}
+
+.encriptar:hover {
+    opacity: 0.5;
+    transition: 400ms;
+    box-shadow:  10px 10px 10px 0 #000000;
+}
+
+
+.desencriptar {
+    text-align: center;
+    margin-left: 210px;
+    background-color: red;
+    color: white;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow:  10px 10px 10px 0 #000000;
+    border-radius: 15px;
+    
+}
+
+.desencriptar:hover {
+    opacity: 0.5;
+    transition: 400ms;
+    box-shadow:  10px 10px 10px 0 #000000;
+}
+
+
+.aviso {
+    font-family: 'Josefin Slab', serif;
+    font-size: 17px;
+    margin-top: 5px;
+    margin-left: 155px;
+    color: rgb(253, 75, 75);
+    
+}
+ 
+
+footer {
+    text-align: center;
+    font-family: 'Special Elite';
+    color: #2e3aa7;
+    font-size: 15px;
+   
+}
+
+.logo-github {
+    margin-top: 8px;
+    width: 32px;
+    height: 32px;
+
+}    
+
+.logo-linkedin {
+    margin-top: 8px;
+    width: 32px;
+    height: 32px;
+
+}
+

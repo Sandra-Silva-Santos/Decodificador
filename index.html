@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+    <meta charset='UTF-8'>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@1&display=swap" rel="stylesheet">
+    <title>Decodificador</title>
+</head>
+
+<body>
+    <main class="main"flex-direction="column">
+
+
+        <section>
+            <textarea class="input-texto" cols="37" rows="6" placeholder="Digite o Texto"
+                style="text-align: center;"></textarea>
+            <input type="hidden" class="input-original-oculto">
+            <div>
+                <p class="aviso"> Somente letras minusculas e palavras sem acento</p>
+            </div>
+            <div class="botoes">
+                <button class="encriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+
+            </div>
+        </section>
+
+        <section>
+            <textarea class="mensagem" cols="18" rows="8" placeholder="Resultado Criptografado"
+                style="text-align: center"></textarea>
+            <button class="copiar" onclick="btnCopiar()">Copiar</button>
+            <button class="limpar" onclick="btnLimpar()">Limpar</button>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+    </main>
+
+    <footer>
+        <p Desenvolvido por class="copyright"> &copy; Sandra - 2022 <br> "Usado para fins educacionais" </p>
+        <a href="https://github.com/Sandra-Silva-Santos" target="_blank"><img src="imagens/github.png"
+                alt="https://github.com/Sandra-Silva-Santos" class="logo-github"></a>
+        <a href="https://linkedin.com/in/sandra-silva-santos" target="_blank"><img src="imagens/linkedin.jpg"
+                alt="https://linkedin.com/in/sandra-silva-santos" class="logo-linkedin"></a>
+    </footer>
+</body>
+
+</html>
