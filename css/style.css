@@ -143,7 +143,7 @@ footer {
     text-align: center;
     font-family: 'Special Elite';
     color: #2e3aa7;
-    font-size: 15px;
+    font-size: 17px;
    
 }
 
@@ -160,4 +160,12 @@ footer {
     height: 32px;
 
 }
+
+.logo-instagram {
+	margin-top: 8px;
+    width: 32px;
+    height: 32px;
+	
+}	
+
 
