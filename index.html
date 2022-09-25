@@ -1,52 +1,69 @@
-<!DOCTYPE html>
-<html lang='pt-br'>
+<!doctype html>
+<html lang="pt-br">
 
 <head>
-    <meta charset='UTF-8'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Decodificador">
+    <title>Decodificador</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@1&display=swap" rel="stylesheet">
-    <title>Decodificador</title>
 </head>
 
 <body>
-    <main class="main"flex-direction="column">
+    <h1>DECODIFICADOR</h1>
+    <p class="aviso"> Somente letras minusculas e palavras sem acento</p>
 
-
-        <section>
-            <textarea class="input-texto" cols="37" rows="6" placeholder="Digite o Texto"
-                style="text-align: center;"></textarea>
-            <input type="hidden" class="input-original-oculto">
+    <main class="main" flex-direction="column">
+        <section class="section text-align-center">
+            <textarea class="input-texto" cols="40" rows="12" placeholder="Digite o Texto" style="text-align:center">
+            </textarea>
             <div>
-                <p class="aviso"> Somente letras minusculas e palavras sem acento</p>
+                <input type="hidden" class="input-original-oculto">
             </div>
+
             <div class="botoes">
                 <button class="encriptar" onclick="btnEncriptar()">Criptografar</button>
                 <button class="desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
-
             </div>
         </section>
 
-        <section>
-            <textarea class="mensagem" cols="18" rows="8" placeholder="Resultado Criptografado"
-                style="text-align: center"></textarea>
-            <button class="copiar" onclick="btnCopiar()">Copiar</button>
-            <button class="limpar" onclick="btnLimpar()">Limpar</button>
+        <section class="section text-align-center">
+            <textarea class="mensagem" cols="40" rows="12" placeholder="Resultado Criptografado"
+                style="text-align:center">
+            </textarea>
+            <div class="botoes">
+                <button class="copiar" onclick="btnCopiar()">Copiar</button>
+                <button class="limpar" onclick="btnLimpar()">Limpar</button>
+            </div>
         </section>
 
     </main>
-    <script src="script.js"></script>
-    </main>
 
-    <footer>
+
+
+    <footer class="footer">
         <p Desenvolvido por class="copyright"> &copy; Sandra - 2022 </p>
-        <a href="https://github.com/Sandra-Silva-Santos" target="_blank"><img src="imagens/github.png"
+        <a href="https://github.com/Sandra-Silva-Santos" target="_blank"><img src="img/github.png"
                 alt="https://github.com/Sandra-Silva-Santos" class="logo-github"></a>
-        <a href="https://linkedin.com/in/sandra-silva-santos" target="_blank"><img src="imagens/linkedin.jpg"
+
+        <a href="https://linkedin.com/in/sandra-silva-santos" target="_blank"><img src="img/linkedin.png"
                 alt="https://linkedin.com/in/sandra-silva-santos" class="logo-linkedin"></a>
-		<a href="https://www.instagram.com/negasaopaulina" target="_blank"><img src="imagens/instagram.png"
-                alt="https://www.instagram.com/negasaopaulina" class="logo-instagram"></a>		
+
+        <a href="https://www.instagram.com/negasaopaulina" target="_blank"><img src="img/instagram.png"
+                alt="https://www.instagram.com/negasaopaulina" class="logo-instagram"></a>
+
+        <a href="https://www.youtube.com/user/negasaopaulina" target="_blank"><img src="img/youtube.png"
+                alt="https://www.youtube.com/user/negasaopaulina" class="logo-youtube"></a>
+
+        <a href="https://www.last.fm/pt/user/negasaopaulina" target="_blank"><img src="img/lastfm.png"
+                alt="hhttps://www.last.fm/pt/user/negasaopaulina" class="logo-lastfm"></a>
     </footer>
+
+
+    <script src="js/script.js"></script>
+
 </body>
 
 </html>
